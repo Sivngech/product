@@ -1,0 +1,98 @@
+@import "tailwindcss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+header{
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    padding: 1rem 2rem;
+    background-color: #060000;
+    height: 50vh;
+    color: white;
+}
+.company-name{
+    position: sticky;
+    font-size: 24px;
+}
+.menu{
+    color: #060000;
+    text-decoration: none;
+}
+nav ul{
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+.nav-active{
+    color: green;
+}
+
+/*home page*/
+.section1{
+    
+    width: 100%;
+    height: 80vh;
+   
+}
+.left-script{
+    width: 30%;
+    padding: 70px;
+}
+.section2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    height: 90vh;
+    
+}
+.section2 div button{
+   margin-left: 20px;
+}
+.con-button{
+    text-align: center;
+    width: 100%;
+}
+/* .con-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 4rem 5rem;
+    
+    
+} */
+/* .con-img img{
+    width:70%;
+    border: solid gray 1px;
+    border-radius: 5px;
+    
+} */
+.best-seller{
+    background-color: rgb(68, 163, 68); 
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 5px;
+    
+}
+.new-product{
+    background-color: white;
+    color: rgb(68, 163, 68); 
+    border: none;
+}
+.section2 button{
+    text-align: right;
+}
+.offer-section{
+    padding: 1rem 2rem;
+    
+}
