@@ -29,7 +29,7 @@
                         <li>
 
                             <img src="" alt="">
-                            <input type="text" placeholder="Search" class="border  gray-300 rounded">
+                            <UInput type="text" placeholder="Search" class="border  gray-300 rounded"/>
                         </li>
                         <li>Sort by</li>
                     </ul>
